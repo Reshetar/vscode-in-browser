@@ -28,8 +28,8 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Auth0ProviderWithRedirectCallback
-        domain={config.auth0Domain}
-        clientId={config.auth0ClientId}
+        domain="dev-7p-0ft5b.us.auth0.com"
+        clientId="DKslLJDN56RMlTYbp6DlU1AVZW7xyRFS"
         redirectUri={window.location.origin}
       >
         <App />
